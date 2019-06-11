@@ -1,16 +1,11 @@
 package main
 
-import (
-	"bufio"
-	"fmt"
-	"log"
-	"os"
-)
+import "fmt"
 
 func main() {
 	//hello("Billy")
 	a, b := swap("b", "a")
-	//fmt.Println(a, b)
+	fmt.Println(a, b)
 	//fmt.Println("This was compiled with Go on Windows")
 	//a := "asdf"
 }
@@ -36,4 +31,4 @@ func swap(x, y string) (string, string) {
 // 		s, err := r.ReadString('\n')
 // 	}
 
-}
+//}
